@@ -26,12 +26,6 @@ dependencies {
   testImplementation 'org.springframework.boot:spring-boot-starter-test'
   implementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
   // end::tests[]
-  // Encryption 
-	implementation group: 'org.springframework.security', name: 'spring-security-crypto', version: '5.6.1'
-	
-	// MFA
-  implementation 'com.okta.authn.sdk:okta-authn-sdk-api:1.0.0'
-  implementation('com.okta.authn.sdk:okta-authn-sdk-impl:1.0.0')   
 }
 
 test {
